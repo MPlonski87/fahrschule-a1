@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="col-lg-12">
+		<p class="copyright text-muted medium" style="text-align: center ">&copy; <time id="year"></time> | <strong>FAHRSCHULE A1</strong></p>
+	</div>
+</div>
+<script>
+  function getCurrentYear() {
+    const year = new Date().getFullYear();
+    document.getElementById('year').innerHTML = year;	
+  }
+	getCurrentYear();
+</script>
